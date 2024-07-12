@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #ffffff; /* Kept white for a clean, uncluttered feel */
+    color: #333333; /* Dark grey for the main text for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #e8f4f8; /* Soft blue for a fresh, modern header background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 5px; /* Add margin-top to the header to account for the nav bar */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #102a43; /* Dark blue that complements the header background */
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #102a43; /* Dark blue background for the nav bar */
+    padding: 10px 0; /* Padding above and below the nav links */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none; /* Remove the default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Centering the nav bar */
+    display: flex; /* Flex display to align list items in a row */
+    justify-content: center; /* Center the items horizontally */
+}
+
+nav li {
+    padding: 0 20px; /* Spacing between the links */
+}
+
+nav a {
+    text-decoration: none; /* Remove the underline from links */
+    color: #ffffff; /* White text color for readability */
+    font-weight: bold; /* Make the nav links bold */
+    transition: color 0.3s ease; /* Transition for the hover effect */
+}
+
+nav a:hover {
+    color: #c8e1ff; /* Light blue color on hover for interactivity */
+}
+
+h2 {
+    color: #102a43; /* Same dark blue for headings for consistency */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0; /* Very light grey for the border */
+    padding-bottom: 5px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #e8f4f8; /* Border color matches the header background */
+}
+
+table {
+    width: calc(100% - 40px);
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+th, td {
+    border: 1px solid #c8e1ff; /* Light blue border for a softer look */
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #102a43; /* Dark blue header cells for contrast */
+    color: #ffffff; /* White text for readability */
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; /* Zebra striping for rows with a light grey */
+}
+
+tr:hover {
+    background-color: #e2e8f0; /* Light blue for hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e8f4f8; /* Footer matches the header */
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    color: #102a43; /* Footer text matches the header text */
+}
+
+a {
+    color: #0077cc; /* Bright blue for links, for a pop of color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

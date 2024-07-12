@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #f8f9fa;
+    padding: 0px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    height: calc(100% - 80px); /* Adjust the height taking header and footer into consideration */
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    width: 250px;
+    overflow-y: auto; /* Allows vertical scroll */
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto; /* Allows vertical scroll */
+    padding: 20px;
+}

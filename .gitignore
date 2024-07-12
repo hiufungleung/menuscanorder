@@ -1,0 +1,73 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment variables
+.env
+
+# Logs and temp files
+*.log
+*.cache
+*.temp
+*.tmp
+
+# IDE and editor files
+/.vscode/
+/.idea
+
+# Core dumps
+core
+core.*# Dependency directories
+      /vendor/
+
+      /writable/
+      /builds/
+      /core/
+
+      /.env
+
+      # IDE and editor files
+      /.vscode/
+
+      /node_modules/
+      /public/hot
+      /public/storage
+      /storage/*.key
+
+      # PHPStorm
+      /.idea
+
+      # Laravel 5 & Lumen specific
+      /public/storage
+      /storage/*.key
+      Homestead.yaml
+      Homestead.json
+
+      # Composer
+      /vendor/
+      /composer.lock
+
+      # NPM
+      node_modules/
+
+      # Environment variables
+      .env
+      .env.*.local
+
+      # Logs and temp files
+      *.log
+      *.cache
+      *.temp
+      *.tmp
+
+      # Other
+      .DS_Store
+      Thumbs.db
+
+# Generated files
+/public/storage
+/storage/*.key
+
+# Other
+.DS_Store
+Thumbs.db
