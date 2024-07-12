@@ -1,3 +1,17 @@
+# Menuscanorder
+
+## Introduction of this project
+This is a SaaS platform designed specifically for restaurants, cafes, and coffee shops to streamline their ordering process. This innovative platform allows these businesses to sign up and create a digital menu, complete with categories, items, and prices. Upon setting up their account, they can enter the total number of tables in their establishment. The system then generates unique QR codes for each table, which can be printed out and placed at tables for guests to scan.
+This is an assessment of the course INFS7202 - Web Information Systems in the University of Queensland, Semester 1 2024. It is marked as high distinction (Grade Point: 7/7).
+## Database Establishment
+![ERD.svg](ERD.svg)
+This project requires a database. There is a file `DatabaseBuild.sql`. Run this file to establish the database. Remember to modify the `env` file.
+
+## Admin account for test
+Usernamne(Email): root
+Password: 8964
+
+-----------------------------------------------------------
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
@@ -66,3 +80,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
