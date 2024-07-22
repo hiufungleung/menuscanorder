@@ -417,7 +417,7 @@ function postData() {
                 };
 
                 $.ajax({
-                    url: '/api/customisationOption',
+                    url: baseURL + '/api/customisationOption',
                     type: 'POST',
                     dataType: 'json',
                     contentType: 'application/json',
