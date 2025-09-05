@@ -64,7 +64,7 @@ jobs:
             docker run -d \
               --name ${{ vars.CONTAINER_NAME }} \
               --restart unless-stopped \
-              -p ${{ vars.APP_PORT }}:80 \
+              -network web
               -e CI_ENVIRONMENT=production \
               -e app.baseURL=${{ vars.APP_BASE_URL }} \
               -e database.default.hostname=${{ secrets.DB_HOSTNAME }} \
