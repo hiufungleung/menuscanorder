@@ -7,9 +7,8 @@ create table RESTAURANTS
     Phone        varchar(255)         not null,
     Address      varchar(255)         not null,
     Password     varchar(255)         not null,
-    Status       varchar(16)          not null,
     isAdmin      tinyint(1) default 0 not null,
-    Summary      text                 not null,
+    Summary      text                 ,
     constraint Email
         unique (Email),
     constraint Name

@@ -1,73 +1,64 @@
-# Dependency directories
+# CodeIgniter 4 specific
+/writable/logs/
+/writable/cache/
+/writable/session/
+/writable/debugbar/
+/writable/uploads/*
+!/writable/uploads/index.html
+!/writable/logs/index.html
+!/writable/cache/index.html
+!/writable/session/index.html
+
+# Environment files
+.env
+.env.*
+env
+
+# Dependencies
 /vendor/
 /node_modules/
+composer.lock
 
-# Environment variables
-.env
-
-# Logs and temp files
+# Logs
 *.log
+
+# Cache and temporary files
 *.cache
 *.temp
 *.tmp
 
 # IDE and editor files
 /.vscode/
-/.idea
+/.idea/
+*.swp
+*.swo
+*~
 
-# Core dumps
-core
-core.*# Dependency directories
-      /vendor/
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-      /writable/
-      /builds/
-      /core/
-
-      /.env
-
-      # IDE and editor files
-      /.vscode/
-
-      /node_modules/
-      /public/hot
-      /public/storage
-      /storage/*.key
-
-      # PHPStorm
-      /.idea
-
-      # Laravel 5 & Lumen specific
-      /public/storage
-      /storage/*.key
-      Homestead.yaml
-      Homestead.json
-
-      # Composer
-      /vendor/
-      /composer.lock
-
-      # NPM
-      node_modules/
-
-      # Environment variables
-      .env
-      .env.*.local
-
-      # Logs and temp files
-      *.log
-      *.cache
-      *.temp
-      *.tmp
-
-      # Other
-      .DS_Store
-      Thumbs.db
-
-# Generated files
+# Build artifacts
+/builds/
 /public/storage
 /storage/*.key
 
-# Other
-.DS_Store
-Thumbs.db
+# PHP specific
+*.phar
+
+# Database
+*.sqlite
+*.db
+
+# Testing
+/phpunit.xml
+/.phpunit.result.cache
+
+# Docker
+docker-compose.override.yml
+.dockerignore
